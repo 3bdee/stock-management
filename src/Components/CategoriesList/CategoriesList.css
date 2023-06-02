@@ -1,0 +1,61 @@
+.categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 14px;
+}
+
+.categories .catHeader {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+.catHeader span {
+  width: 11px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #1fbdf1;
+  margin-top: 4px;
+}
+
+.catCards {
+  display: grid;
+  grid-template-columns: 5fr 5fr 5fr;
+  grid-column-gap: 20px;
+  grid-auto-rows: 250px;
+  grid-row-gap: 20px;
+  justify-content: space-between;
+}
+.catCards .cards {
+  display: flex;
+  flex-direction: column;
+  background-color: #1fbdf1;
+  border-radius: 15px;
+  border: 1px solid rgb(0, 219, 0);
+  overflow: hidden;
+  cursor: pointer;
+}
+.cards h2 {
+  margin-left: 10px;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  font: inherit;
+  letter-spacing: inherit;
+  color: currentColor;
+  padding: 4px 0 5px;
+  border: 0;
+  box-sizing: content-box;
+  background: none;
+  height: 0.4375em;
+  margin: -13px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  min-width: 9px;
+  width: 76%;
+  -webkit-animation-name: mui-auto-fill-cancel;
+  animation-name: mui-auto-fill-cancel;
+  -webkit-animation-duration: 10ms;
+  animation-duration: 10ms;
+}

@@ -1,0 +1,112 @@
+.main-login {
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow-x: hidden;
+  background: linear-gradient(to right, #e7e5e5, 50%, #c23af4 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-contain {
+  height: 75vh;
+  width: 70%;
+  background: linear-gradient(
+    to right,
+    rgba(246, 247, 247, 0.7),
+    rgba(223, 236, 236, 0.4)
+  );
+  border-radius: 1rem;
+  margin: 2rem auto;
+  box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(190, 189, 189);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-side,
+.right-side {
+  margin: 2rem;
+  box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(219, 218, 218);
+  height: 80%;
+  width: 100%;
+}
+.left-side {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.forLogin > input {
+  display: block;
+  border: none;
+  height: 2rem;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  color: gray;
+  transition: all 0.1s ease-in-out;
+  height: 3rem;
+  width: 100%;
+  padding: 2.2rem 2rem;
+}
+.forLogin > input:focus {
+  outline: none;
+  border: none;
+}
+.forLogin > input:hover {
+  outline: 0.5px solid #f4623a;
+  box-shadow: 2px 2px 9px -1px #f4623a;
+}
+.forLogin > label {
+  display: block;
+  text-align: left;
+  width: 80%;
+  margin: auto;
+  float: left;
+  width: 70%;
+  font-size: small;
+  color: gray;
+  margin-bottom: 0.5rem;
+}
+#sub_butt {
+  width: 100%;
+  background: #f4623a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 1.1rem 2rem;
+  transition: all 0.5s ease;
+  border-radius: 8px;
+  text-align: center;
+}
+#sub_butt:hover {
+  box-shadow: 0.5px 0.5px 6px -1px black;
+  transform: translateY(-5px);
+}
+a {
+  text-decoration: none;
+  color: #f4623a;
+}
+.welcomeNote h3 {
+  margin-left: 1rem;
+  color: black;
+  float: left;
+  margin-bottom: 2.5rem;
+}
+.right-side.welcomImg {
+  width: 95%;
+  height: 50%;
+  object-fit: cover;
+}
+#wel-img-id {
+  width: 95%;
+  height: 66%;
+  object-fit: cover;
+}
+.typeUser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.typeUser .rad {
+  height: 1rem;
+}

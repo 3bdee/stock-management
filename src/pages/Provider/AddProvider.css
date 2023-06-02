@@ -1,0 +1,56 @@
+.addProvider {
+  border-radius: 8px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  display: flex;
+  gap: 3px;
+  padding: 3px 5px;
+  color: gray;
+}
+button > span {
+  margin-left: 12px;
+  color: rgb(24, 123, 209);
+}
+.addProvider .pop {
+  color: rgb(28, 211, 28);
+  background-color: aliceblue;
+  border-radius: 8px;
+  border: 1px dotted rgb(0, 252, 0);
+  font-weight: bold;
+  margin-top: 20px;
+}
+.pop:hover {
+  background-color: rgb(77, 151, 77);
+}
+
+.popContainer {
+  background-color: aliceblue;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.popInputs form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.addF > input {
+  width: 300px;
+  padding: 4px 8px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  margin-bottom: 6px;
+}

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Dashboard {
+  display: flex;
+}
+
+.MainContent {
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  flex: 6;
+  margin-top: 10px;
+  border-radius: 0px;
+  overflow: auto;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.widgets,
+.charts {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+.charts {
+  padding: 5px 20px;
+}

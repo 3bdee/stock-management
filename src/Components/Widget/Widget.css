@@ -1,0 +1,62 @@
+.Widget {
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  /* -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47); */
+  border-radius: 8px;
+  height: 190;
+  min-width: 270px;
+}
+.product1:hover {
+  -webkit-listcard-shadow: 2px 4px 10px 1px rgba(56, 68, 238, 0.47);
+  box-shadow: -1px 2px 15px 12px rgb(175 153 18 / 76%);
+  transition: 1s;
+
+  cursor: pointer;
+}
+.users1:hover {
+  -webkit-listcard-shadow: 2px 4px 10px 1px rgba(15, 201, 9, 0.582);
+  box-shadow: -1px 2px 15px 12px rgb(56 184 86 / 76%);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.left,
+.right,
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.title {
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+}
+.link {
+  font-size: 12px;
+  border-bottom: 1px solid gray;
+  width: max-content;
+  text-decoration: capitalize;
+  font-weight: bold;
+}
+.percentage {
+  display: flex;
+  align-items: center;
+  font-style: 14px;
+}
+
+.positive {
+  color: rgb(3, 214, 3);
+}
+.negative {
+  color: red;
+}
+.icon {
+  font-style: 18px;
+  padding: 5px;
+  background-color: #744ff87c;
+  border-radius: 5px;
+  align-self: flex-end;
+}

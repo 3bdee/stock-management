@@ -1,0 +1,19 @@
+/* .dx-visibility-change-handler,
+.dxc,
+.dxc-chart {
+  background-color: red !important;
+} */
+
+/* .dxc-title text {
+  fill: rgb(238, 238, 238);
+}
+g.dxc-item text {
+  fill: white !important;
+} */
+
+.productCharts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 400px;
+}

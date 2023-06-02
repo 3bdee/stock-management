@@ -1,0 +1,12 @@
+.pro .catHeader {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+.pro .catHeeader span {
+  width: 11px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #1fbdf1;
+  margin-top: 4px;
+}

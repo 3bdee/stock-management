@@ -1,0 +1,190 @@
+.CliNav {
+  height: 60px;
+  border-bottom: 0.5px solid lightblue;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #fffefe;
+  background-color: #ac1ad1;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 0 13px;
+  margin-bottom: 8px;
+  box-shadow: -9px 9px 4px 0px rgb(56 48 163 / 47%);
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+.CliWrap {
+  display: flex;
+  align-items: center;
+  padding: 0px !important;
+  justify-content: space-between;
+  width: 100%;
+}
+.CliItems {
+  display: flex;
+  align-items: center;
+}
+.CliItems .CliItem {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  font-size: 20px;
+  position: relative;
+}
+.CliSearch {
+  border: none;
+  outline: none;
+  background-image: url("logo.png");
+  height: 46px !important;
+  width: 157px;
+  background-size: 183px;
+}
+
+.CliItems .CliItem .counter {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.MainCmd {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.addBtn1 {
+  display: flex;
+  justify-content: end;
+  margin-right: 10px;
+}
+.commandAddition {
+  width: 96%;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 13px;
+}
+
+.comTab {
+  width: 96%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.MuiDataGrid-columnHeaderTitleContainer {
+  background-color: #1cefff !important;
+}
+.MuiDataGrid-columnHeader--sortable {
+  background-color: #1cefff !important;
+}
+.css-t89xny-MuiDataGrid-columnHeaderTitle {
+  font-weight: bold;
+  color: #a12fb2;
+}
+
+#selectProduit img,
+.item img {
+  width: 25px;
+  height: 22px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.profilee {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: space-around;
+  align-items: center;
+}
+.profilee img {
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.status {
+  padding: 8px 12px;
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.accepted {
+  color: green;
+  background-color: rgba(0, 128, 0, 0.151);
+}
+.in_progress {
+  color: goldenrod;
+  background-color: rgba(189, 189, 3, 0.103);
+}
+.refused {
+  color: rgb(194, 58, 48);
+  background-color: rgba(189, 189, 3, 0.103);
+}
+
+.cellWithImg {
+  display: flex;
+  align-items: center;
+}
+.Image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.css-1usso8h-MuiDataGrid-root .MuiDataGrid-cellContent {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-weight: bold;
+  color: #060000;
+}
+#modal-modal-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#modal-modal-description img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.css-1wnsr1i {
+  background-color: #6ba0ffe8;
+  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+    0px 24px 38px 3px rgba(0, 0, 0, 0.14), 1px 0px 3px 20px rgb(23 63 54 / 12%);
+  padding: 32px;
+  border-radius: 10px;
+  border: none;
+}
+#modal-modal-description h4 {
+  font-weight: bold;
+  line-height: 3.2;
+}
+#modal-modal-description table {
+  width: 100%;
+}
+#modal-modal-description table td,
+th {
+  border-bottom: 1px solid white;
+  margin: 8px;
+  padding: 10px;
+  color: white;
+}
+.css-f7gr6q {
+  border-radius: 10px;
+}

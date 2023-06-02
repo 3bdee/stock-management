@@ -1,0 +1,172 @@
+.MainContent .btn-add {
+  display: flex;
+  justify-content: end;
+}
+
+.MainContent .catDesc {
+  width: 96%;
+  margin: 10px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  border: 1px solid lightgreen;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  color: black;
+  -webkit-listcard-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+}
+.MainContent .catDesc .img {
+  width: 140px;
+  height: 400px;
+  background-color: blueviolet;
+}
+.MainContent .catDesc .desc {
+  margin-left: 10px;
+  margin-top: 23px;
+  margin-top: 10px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 13px;
+}
+.catDesc .desc .oneDesc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.catDesc .desc .action {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+.listProduct {
+  /* background-color: rgb(0, 0, 0);
+  width: 96%;
+  display: grid;
+  grid-template-columns: 6fr 6fr 6fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch;
+  place-items: center; */
+  /* position: relative;
+  width: 96%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  transform-style: preserve-3d;
+  perspective: 500px;
+  margin: auto;
+  background-color: #c28a8a67;
+  border-radius: 10px;
+  -webkit-listcard-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47); */
+  width: 100%;
+  height: 190vh;
+  display: grid;
+  grid-template-columns: 6fr 6fr 6fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch;
+  background: #d6d6d6b3;
+  border-radius: 15px;
+  padding: 10px;
+}
+/* .listProduct .listCard img {
+  width: 300px;
+  height: 200x;
+} */
+.listProduct .listCard {
+  position: relative;
+  width: 211px;
+  height: 211px;
+  background: #000;
+  transition: 0.5s;
+  /* transform-style: preserve-3d; */
+  overflow: hidden;
+  margin-right: 15px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+/* .listProduct:hover .listCard {
+  transform: rotateY(25deg);
+} */
+
+.listProduct .listCard:hover ~ .listCard {
+  transform: rotateY(-25deg);
+}
+.listProduct .listCard:hover {
+  transform: rotateY(0deg) scale(1.25);
+  z-index: 1;
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+}
+.listProduct .listCard .imgBx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.listProduct .listCard .imgBx:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #f00, #000);
+  z-index: 1;
+  opacity: 0;
+  transition: 0.5s;
+  mix-blend-mode: multiply;
+}
+.listProduct .listCard:hover .imgBx:before {
+  opacity: 1;
+}
+.listProduct .listCard .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.listProduct .listCard .imgDesc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.listProduct .listCard .imgDesc h2 {
+  color: #fff;
+  transition: 0.5s;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 20px;
+  transform: translateY(200px);
+  transition-delay: 0.3s;
+}
+.listProduct .listCard:hover .imgDesc h2 {
+  transform: translateY(0px);
+}
+.listProduct .listCard .imgDesc p {
+  color: #fff;
+  transition: 0.5s;
+  font-size: 14px;
+  transform: translateY(200px);
+  transition-delay: 0.4s;
+}
+.listProduct .listCard:hover .imgDesc p {
+  transform: translateY(0px);
+}

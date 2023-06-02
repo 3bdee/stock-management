@@ -1,0 +1,84 @@
+.ProviderTable {
+  margin: 10px;
+  font-size: 0.9em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  border-radius: 8px;
+  border-collapse: collapse;
+}
+
+.tableProvider thead tr {
+  background-color: #009879;
+  color: #fff;
+  text-align: center;
+}
+.tableProvider th,
+.tableProvider td {
+  padding: 7px 10px;
+}
+.tableProvider tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+.tableProvider tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+.tableProvider tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.btn {
+  border: none;
+  color: white;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.btn-edit {
+  background-color: #008bca;
+}
+
+.btn-delete {
+  background-color: #f30f0f;
+}
+
+.cellAction {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.cellAction .viewButton {
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: darkblue;
+  border: 1px dotted rgba(0, 0, 139, 0.596);
+  cursor: pointer;
+}
+
+.cellAction .deleteButton {
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: crimson;
+  border: 1px dotted rgba(220, 20, 60, 0.6);
+  cursor: pointer;
+}
+.MuiDataGrid-columnHeaderTitle {
+  font-size: 19px;
+}
+.css-t89xny-MuiDataGrid-columnHeaderTitle {
+  font-weight: bold;
+}
+.MuiDataGrid-columnHeader--sortable {
+  background-color: #0be511;
+}
+
+.MuiDataGrid-columnHeaderTitleContainer {
+  background-color: #0be511;
+}

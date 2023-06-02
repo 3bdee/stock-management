@@ -1,0 +1,51 @@
+.totalCommand {
+  flex: 3;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  border-radius: 8px;
+  padding: 10px;
+  padding-top: 3px;
+  /* background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%); */
+  background-color: coral;
+}
+.totalCommand:hover {
+  -webkit-listcard-shadow: 2px 4px 10px 1px rgba(56, 68, 238, 0.47);
+  box-shadow: -1px 2px 15px 12px #c93e20;
+  transition: 1s;
+
+  cursor: pointer;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: gray;
+}
+
+.top .title {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.circule {
+  width: 179px;
+  height: 179px;
+}
+
+.bottom .title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bottom .total {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(0, 138, 7);
+}

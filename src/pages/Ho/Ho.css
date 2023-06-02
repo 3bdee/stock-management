@@ -1,0 +1,137 @@
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.carousel img {
+  height: 600px;
+}
+#nav_bar .navbar1 {
+  /*background-image: linear-gradient(to right,#d551e9,#c57ce9);*/
+  padding: 0;
+}
+.container-fluid a {
+  color: blue;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+.navbar-nav li a {
+  color: blue !important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+.fa-bars {
+  color: blue;
+  font-size: 30px !important;
+}
+.navbar-toggler {
+  outline: none !important;
+}
+/*-------------Slider ------------*/
+#slider {
+  width: 100%;
+}
+
+#service {
+  position: sticky;
+  top: 10px;
+  z-index: 10;
+}
+#service .container {
+  margin-top: 30px;
+}
+.col-md-4 h4 {
+  color: blue;
+}
+
+.col-md-4 img {
+  height: 150px;
+}
+.fa-clock-o {
+  color: blue;
+  font-size: 45px !important;
+}
+.fa-check-square-o {
+  color: blue;
+  font-size: 45px !important;
+}
+.fa-bell {
+  color: blue;
+  font-size: 45px !important;
+}
+#contact {
+  background: #efefef;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#contact .containar {
+  margin-bottom: 30px;
+}
+#contact .containar h2 {
+  text-align: center;
+  color: blue;
+}
+#contact .containar form {
+  margin-top: 20px;
+  padding: 20px;
+}
+.contact-from {
+  padding: 15px;
+}
+.form-control {
+  border-radius: 0 !important;
+  border: none !important;
+}
+.form-group input::placeholder {
+  color: #999 !important;
+}
+.follow {
+  background: #fff;
+  padding: 10px;
+  margin: 35px;
+}
+.contact-info .fa {
+  margin: 10px;
+  color: blue;
+  font-weight: bold;
+}
+
+#footer {
+  margin: 20px;
+  padding: 10px;
+}
+#footer p {
+  color: #000;
+}
+.footer-box .fa {
+  margin-right: 8px;
+  font-size: 20px;
+  height: 40px;
+}
+.footer-box .fa {
+  margin: 10px;
+  color: blue;
+  font-weight: bold;
+}
+.footer-box .from-control {
+  background-color: #efefef;
+  padding: 7px;
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 25px;
+  max-width: 250px;
+}
+#footer hr {
+  background-color: blue;
+}
+.copyright {
+  text-align: center;
+
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}

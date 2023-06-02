@@ -1,0 +1,56 @@
+.addCommandCli .navbar {
+  background-color: skyblue;
+}
+.addCommandCli .navbar h2 {
+  color: #fff;
+}
+
+.command-form {
+  position: relative;
+
+  left: 100px;
+  padding: 20px;
+  width: 400px;
+  border-radius: 50px;
+}
+.command-form h2 {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.liste {
+  margin-left: 100px;
+  margin-top: 50px;
+  display: flex;
+  width: 600px;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  scale: 1.2;
+}
+.liste li {
+  width: 100px;
+  list-style: none;
+}
+.command-form input {
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 8px;
+  width: 60px;
+  height: 23px;
+  border: skyblue;
+  border-radius: 15px;
+  background-color: skyblue;
+}
+.command-form .other {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.command-form .other button {
+  color: white;
+  width: 150px;
+  margin: 10%;
+  background: skyblue;
+}

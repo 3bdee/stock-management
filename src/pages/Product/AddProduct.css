@@ -1,0 +1,48 @@
+.addCategorie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.mainBtn {
+  border-radius: 8px;
+  margin: 10px;
+  background-color: rgb(166, 200, 230);
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.addCategorie .add {
+  background-color: lightgreen;
+  border-radius: 8px;
+  color: rgb(29, 27, 27);
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.addCategorie .cat_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.pro .btns {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.pro .uploadPhoto {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.addCategorie .addbtn > span {
+  color: aliceblue;
+}
